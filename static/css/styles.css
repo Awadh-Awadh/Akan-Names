@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@200&display=swap');
+
+.container-fluid{
+padding: 1rem 5rem;
+
+}
+.cover{
+  width: 500px;
+  height: 500px;
+  opacity: 0.6;
+}
+h1{
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  padding: 5rem 0;
+  font-size: 3.5rem;
+  white-space: nowrap;
+  font-weight: 700;
+  
+}
+p{
+  padding: 5rem 0;
+  line-height: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+  font-family: 'DM Sans', sans-serif;
+  padding-bottom: -2rem;
+}
