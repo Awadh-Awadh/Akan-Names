@@ -143,11 +143,11 @@ color: #fff;
   background-color: white;
   cursor: pointer;
 }
-.results{
+#results{
   text-align: center;
-  padding: 6rem;
-  display: block;
-  transition: all 2s ease;
+  padding: 3rem;
+  opacity: 0;
+  transition: all 4s ease;
 }
 footer p{
   text-align: center;

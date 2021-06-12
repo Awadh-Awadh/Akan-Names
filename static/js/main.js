@@ -14,7 +14,7 @@ let yy = parseInt(yearArr.slice(2).join(''));
   if(year >= 2000){
     yy = 100+ parseInt(yearArr.slice(2).join(''))
   }
-  let d = Math.round(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
+  let d = Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
   return d
   
   
@@ -28,9 +28,15 @@ let yy = parseInt(yearArr.slice(2).join(''));
     var maleGender = document.getElementById("male").value;
     var femaleGender = document.getElementById("female").value;
     var kwasiNames;
+    alert(index)
      if(weekDays[index] && maleGender){
        kwasiNames = maleNames[index]
     }
+    if (weekDays[index] && femaleGender){
+      kwasiNames = femaleNames[index]
+    }
+  var name = document.querySelector('.name');
+name.innerHTML= kwasiNames;
     
     
     }
@@ -46,5 +52,5 @@ let yy = parseInt(yearArr.slice(2).join(''));
 button.addEventListener('click', ()=> {
 getName()
 let results = document.querySelector('#results');
- results.style.opacity= 1;
+results.style.opacity= 1;
 })
