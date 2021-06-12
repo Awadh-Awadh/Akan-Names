@@ -25,18 +25,18 @@ let yy = parseInt(yearArr.slice(2).join(''));
     let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     let weekDays= ["sunday", "monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
     let index = calcDay();
-    var maleGender = document.getElementById("male").value;
-    var femaleGender = document.getElementById("female").value;
+    var maleGender = document.querySelector("#male")
+    var femaleGender = document.querySelector("#female")
     var kwasiNames;
     alert(index)
-     if(weekDays[index] && maleGender){
+     if(weekDays[index] && maleGender.checked){
        kwasiNames = maleNames[index]
     }
-    if (weekDays[index] && femaleGender){
+    if (weekDays[index] && femaleGender.checked){
       kwasiNames = femaleNames[index]
     }
   var name = document.querySelector('.name');
-name.innerHTML= kwasiNames;
+  name.innerHTML= kwasiNames;
     
     
     }
