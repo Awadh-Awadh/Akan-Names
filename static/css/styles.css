@@ -49,3 +49,26 @@ h2{
   left: 19rem;
   top: 18rem;
 }
+.btn{
+  margin: 5rem;
+  }
+.view{
+  padding: 1rem 2rem;
+  border: none;
+  border-color: none;
+  border-radius: 20px;
+  background-color: #54E346;
+  color: white;
+  outline: none;
+  transition: all 0.5s ease;
+  }
+  .view:hover{
+   box-shadow:
+    6px 6px 6px #2e2f30,
+    -6px -6px 6px #cbced1;
+    border: 1px solid #54E346;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+
+  }
