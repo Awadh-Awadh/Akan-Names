@@ -22,7 +22,7 @@
   - Click the submit button to see what my Akan name would be
   
 ## Live link
-[live Link](https://awadh-awadh.github.io/Akan-Names/)
+[Live Link](https://awadh-awadh.github.io/Akan-Names/)
   
 ## Technologies used
   - HTML
