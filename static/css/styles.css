@@ -37,6 +37,12 @@ h2{
 h6{
   padding: 1.5rem 0 0;
 }
+h3{
+  font-size: 2rem;
+  letter-spacing: .5rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;;
+}
 .circle1{
   width: 200px;
   height: 200px;
@@ -84,7 +90,7 @@ h6{
     width: 400px;
     border-radius: 10px 40px 20px 40px;
     background-color:#54E346 ;
-    margin: 2rem auto;
+    margin: 3rem auto;
   }
 
   #userInput h2{
@@ -149,6 +155,7 @@ color: #fff;
   opacity: 0;
   transition: all 4s ease;
 }
+
 footer p{
   text-align: center;
   padding: 2rem 0 0 0;
