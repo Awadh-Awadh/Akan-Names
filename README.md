@@ -9,7 +9,7 @@
 - Awadh Said
   
 ## Setup instructions
-- Go to my repo at [repolink] (https://github.com/Awadh-Awadh/Akan-Names)
+- Go to my repo at [repolink](https://github.com/Awadh-Awadh/Akan-Names)
 - Clone the repo;
 - cd to the project then go live
 ​
@@ -22,6 +22,7 @@
   - Click the submit button to see what my Akan name would be
   
 ## Live link
+[live Link](https://awadh-awadh.github.io/Akan-Names/)
   
 ## Technologies used
   - HTML
