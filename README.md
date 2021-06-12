@@ -9,9 +9,9 @@
 - Awadh Said
   
 ## Setup instructions
--Go to my repo at [repolink] (https://github.com/Awadh-Awadh/Akan-Names)
--Clone the repo;
--cd to the project then go live
+- Go to my repo at [repolink] (https://github.com/Awadh-Awadh/Akan-Names)
+- Clone the repo;
+- cd to the project then go live
 ​
 ## BDD
   As a user, I would like to;
