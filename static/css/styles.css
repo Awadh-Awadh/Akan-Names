@@ -8,14 +8,17 @@ padding: 1rem 5rem;
 .cover{
   width: 500px;
   height: 500px;
-  opacity: 0.6;
+  opacity: 0.7;
+  transition: all 2s ease;
+}
+.cover:hover{
+  opacity: 1;
 }
 h1{
   font-family: 'DM Sans', sans-serif;
   text-align: center;
   padding: 5rem 0;
   font-size: 3.5rem;
-  white-space: nowrap;
   font-weight: 700;
   letter-spacing: .5rem;
   
@@ -95,7 +98,7 @@ h6{
 }
   .formbackground{
     box-shadow: 0px 8px 12px 2px rgb(0,0,0,0.24);
-    padding: 2em;
+    padding: 2rem;
     background-color: #ffffff;
     overflow: hidden;
     position: relative;
@@ -114,7 +117,7 @@ h6{
 }
 .formbackground input{
 background-color: #ecf0f3;
-border-radius: 2em;
+border-radius: 1rem;
 border: none;
 }
 
@@ -126,7 +129,7 @@ border: none;
 .formsubmitbtn{
 background-color: #54E346;
 box-shadow: 0 5px 15px 2px #ecf0f3;
-border-radius: 2em;
+border-radius: 1em;
 padding-left: 2em;
 padding-right: 2em;
 color: #fff;
@@ -143,6 +146,11 @@ color: #fff;
 .results{
   text-align: center;
   padding: 6rem;
-  display: none;
+  display: block;
   transition: all 2s ease;
+}
+footer p{
+  text-align: center;
+  padding: 2rem 0 0 0;
+  background-color: #cbced1;
 }
