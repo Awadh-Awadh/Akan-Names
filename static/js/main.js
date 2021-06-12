@@ -16,12 +16,25 @@ let yy = parseInt(yearArr.slice(2).join(''));
   }
   let d = Math.round(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
   return d
+  
+  
   }
-
-
   
-  
-
+  function getName(){
+    let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    let weekDays= ["sunday", "monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
+    let index = calcDay();
+    var maleGender = document.getElementById("male").value;
+    var femaleGender = document.getElementById("female").value;
+    var kwasiNames;
+     if(weekDays[index] && maleGender){
+       kwasiNames = maleNames[index]
+    }
+    
+    
+    }
+    
 
 
 
@@ -31,12 +44,7 @@ let yy = parseInt(yearArr.slice(2).join(''));
 
 
 button.addEventListener('click', ()=> {
-   calcDay();
-
-
-
-
-//  let results = document.querySelector('#results');
-//  results.style.opacity= 1;
- console.log("awadh");
+getName()
+let results = document.querySelector('#results');
+ results.style.opacity= 1;
 })
