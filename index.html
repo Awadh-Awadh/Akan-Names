@@ -51,26 +51,29 @@
 <!-- user input -->
 
 <section id=userInput>
-    <div class="container-fluid">
+  <h2>Ever wanted to check your Name?</h2>
+  <div class="container-fluid">
     <div class="row forms-container">
-      <div class="col-md-4  mt-5">
+      <div class="col-md-4 col-lg-6 mt-5">
         <div class="formbackground green-text">
           <div class="skew-down-background"></div>
           <form>
             <div class="form-group mt-2">
               <label class="green-text" for="year">Birth Year</label>
-              <input type="email" class="form-control" id="year" placeholder="Enter your birth year">
+              <input type="number" class="form-control" id="year" placeholder="Enter your birth year">
             </div>
             <div class="form-group mt-4">
               <label class="green-text" for="month">Month</label>
-              <input type="password" class="form-control" id="month" placeholder="Enter your birth month, 0-12">
+              <input type="number" class="form-control" id="month" placeholder="Enter your birth month, 0-12">
             </div>
             <div class="form-group mt-4">
               <label class="green-text" for="day">Day</label>
-              <input type="password" class="form-control" id="day" placeholder="Enter your birth day 0-31">
+              <input type="number" class="form-control" id="day" placeholder="Enter your birth day 0-31">
             </div>
+            <h6>Gender</h6>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <input class="form-check-input mb-2" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                checked>
               <label class="form-check-label" for="exampleRadios1">
                 Male
               </label>
@@ -81,8 +84,8 @@
                 Female
               </label>
             </div>
-            <div class="text-center mt-4">
-              <button type="submit" class="btn formsubmitbtn">Submit</button>
+            <div class="text-center">
+              <button type="submit" class="btn formsubmitbtn">Check</button>
             </div>
           </form>
         </div>
@@ -90,7 +93,13 @@
     </div>
   </div>
 </section>
-
+<!-- results -->
+<section>
+  <div class = "results">
+   <h3>Your Akan Name is:</h3>
+   <h4>Awadh</h4>
+  </div>
+</section>
 <body>
   <script src="./static/js/main.js"></script>
 </body>
