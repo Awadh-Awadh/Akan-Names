@@ -28,21 +28,20 @@ let yy = parseInt(yearArr.slice(2).join(''));
     var maleGender = document.querySelector("#male")
     var femaleGender = document.querySelector("#female")
     var kwasiNames;
-    alert(index)
      if(weekDays[index] && maleGender.checked){
-       kwasiNames = maleNames[index]
+       kwasiNames = maleNames[index] + "💪🏿"
     }
     if (weekDays[index] && femaleGender.checked){
-      kwasiNames = femaleNames[index]
+      kwasiNames = femaleNames[index] + "👧🏿"
     }
   var name = document.querySelector('.name');
-  name.innerHTML= kwasiNames;
+  name.innerHTML= kwasiNames ;
     
     
     }
     
 
-
+ 
 
 
 
